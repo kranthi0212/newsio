@@ -8,6 +8,7 @@ import {
   StockOutlined,
 } from '@ant-design/icons';
 import { fetchSources } from '../api';
+import { Button } from 'antd';
 
 const NewsSection = React.lazy(() => import('./NewsSection'));
 const News = React.lazy(() => import('./News'));
@@ -63,6 +64,7 @@ class MainLayout extends React.Component {
               className: 'trigger',
               onClick: this.toggle,
             })}
+            <Button type="link" href="https://www.covid19india.org/" target="blank">Covid Data</Button>
           </Header>
           <Content
             className="site-layout-background"
