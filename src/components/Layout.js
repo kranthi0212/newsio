@@ -53,7 +53,7 @@ class MainLayout extends React.Component {
             </Menu.Item>
             {this.state.sources.map((source) =>
               <Menu.Item onClick={() => this.loadNews(source.name)} key={source.name}>
-                {source.name}
+                {source.name} 
               </Menu.Item>
             )}
           </Menu>

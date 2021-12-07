@@ -18,7 +18,103 @@ const NewsSection = (request) => {
         <div>
             <Row>
                 <Col>
-                    <h1 style={{ fontSize: '30px' }}>{request.topHeading}</h1>
+                    <h1 style={{ fontSize: '30px' }}>{request.topHeading} </h1>
+
+                    <div className="countryName" style={{marginBottom:"10px",marginTop:"10px",marginLeft:"1px",fontWeight:"bold"}}>
+                        
+                        <span>
+                            {
+                                (request.topHeading === 'ABC News') ?
+                                "CountryName: United states" :""
+                            }
+                        </span>
+                        <span>
+                            {
+                                (request.topHeading === 'Aftenposten') ?
+                                "Norway" :""
+                            }
+                        </span>
+                        <span>
+                            {
+                                (request.topHeading === 'Al Jazeera English') ?
+                                "Qatar" :""
+                            }
+                        </span>
+                        <span>
+                            {
+                                (request.topHeading === 'Agenzia Nazionale Stampa Associata') ?
+                                "Italy" :""
+                            }
+                        </span>
+                        <span>
+                            {
+                                (request.topHeading === 'Argaam') ?
+                                "Saudi Arabian" :""
+                            }
+                        </span>
+                        <span>
+                            {
+                                (request.topHeading === 'Ars Technica') ?
+                                "Massachusetts" :""
+                            }
+                        </span>
+                        <span>
+                            {
+                                (request.topHeading === 'Ary News') ?
+                                "Pakistan" :""
+                            }
+                        </span>
+                        <span>
+                            {
+                                (request.topHeading === 'Axios media') ?
+                                "America" :""
+                            }
+                        </span>
+                        <span>
+                            {
+                                (request.topHeading === 'Australian financial review') ?
+                                "Australia" :""
+                            }
+                        </span>
+                        <span>
+                            {
+                                (request.topHeading === 'BBC News') ?
+                                "London" :""
+                            }
+                        </span>
+                        <span>
+                            {
+                                (request.topHeading === 'BBC Sports') ?
+                                "London" :""
+                            }
+                        </span>
+                        <span>
+                            {
+                                (request.topHeading === 'Bild') ?
+                                "Germany" :""
+                            }
+                        </span>
+                        <span>
+                            {
+                                (request.topHeading === 'Blasting news') ?
+                                "London" :""
+                            }
+                        </span>
+                        <span>
+                            {
+                                (request.topHeading === 'Bleacher Report') ?
+                                "California" :""
+                            }
+                        </span>
+                       
+                    </div>
+                    
+
+
+
+
+
+                    
                 </Col>
             </Row>
             <Row>
