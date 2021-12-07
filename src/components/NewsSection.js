@@ -106,6 +106,574 @@ const NewsSection = (request) => {
                                 "California" :""
                             }
                         </span>
+                        <span>
+                            {
+                                (request.topHeading === 'Bloomberg') ?
+                                "United states" :""
+                            }
+                        </span>
+                        <span>
+                            {
+                                (request.topHeading === 'Bloomberg Business') ?
+                                "United states" :""
+                            }
+                        </span>
+                        <span>
+                            {
+                                (request.topHeading === 'Bloomberg News') ?
+                                "United states" :"" 
+                            }
+                        </span>
+                        <span>
+                            {
+                                (request.topHeading === 'Breitbart News') ?
+                                "United states" :""
+                            }
+                        </span>
+                        <span>
+                            {
+                                (request.topHeading === 'Business Insider') ?
+                                "United states" :""
+                            }
+                        </span>
+                        <span>
+                            {
+                                (request.topHeading === 'Business Insider (UK)') ?
+                                "United states" :""
+                            }
+                        </span>
+                        <span>
+                            {
+                                (request.topHeading === 'Buzzfeed') ?
+                                "United states" :""
+                            }
+                        </span>
+                        <span>
+                            {
+                                (request.topHeading === 'CBC News') ?
+                                "Canada" :""
+                            }
+                        </span>
+                        <span>
+                            {
+                                (request.topHeading === 'CBS News') ?
+                                "United states" :""
+                            }
+                        </span>
+
+                        <span>
+                            
+                            {
+                                (request.topHeading === 'CNN') ?
+                                "United states" :""
+                            }
+                        </span>
+                        <span>
+                            
+                            {
+                                (request.topHeading === 'CNN Spanish') ?
+                                "United states" :""
+                            }
+                        </span>
+                        <span>
+                            
+                            {
+                                (request.topHeading === 'Der Tagesspiegel') ?
+                                "United states" :""
+                            }
+                        </span>
+                        <span>
+                            
+                            {
+                                (request.topHeading === 'Die Zeit') ?
+                                "United states" :""
+                            }
+                        </span>
+                        <span>
+                            
+                            {
+                                (request.topHeading === 'El Mundo') ?
+                                "United states" :""
+                            }
+                        </span>
+                        <span>
+                            
+                            {
+                                (request.topHeading === 'Engadget') ?
+                                "United states" :""
+                            }
+                        </span>
+                        <span>
+                            
+                            {
+                                (request.topHeading === 'Focus') ?
+                                "United states" :""
+                            }
+                        </span>
+                        <span>
+                            
+                            {
+                                (request.topHeading === 'Fortune') ?
+                                "United states" :""
+                            }
+                        </span>
+                        <span>
+                            
+                            {
+                                (request.topHeading === 'FourFourTow') ?
+                                "United states" :""
+                            }
+                        </span>
+                        <span>
+                            
+                            {
+                                (request.topHeading === 'Fox News') ?
+                                "United states" :""
+                            }
+                        </span>
+                        <span>
+                            
+                            {
+                                (request.topHeading === 'Fox Sports') ?
+                                "United states" :""
+                            }
+                        </span>
+                        <span>
+                            
+                            {
+                                (request.topHeading === 'Globo') ?
+                                "United states" :""
+                            }
+                        </span>
+                        <span>
+                            
+                            {
+                                (request.topHeading === 'Göteborgs-Posten') ?
+                                "United states" :""
+                            }
+                        </span>
+                        <span>
+                            
+                            {
+                                (request.topHeading === 'Gruenderzene') ?
+                                "United states" :""
+                            }
+                        </span>
+                        <span>
+                            
+                            {
+                                (request.topHeading === 'Hacker News') ?
+                                "United states" :""
+                            }
+                        </span>
+                        <span>
+                            {
+                                (request.topHeading === 'Handelsblatt') ?
+                                "United states" :""
+                            }
+                        </span>
+                        <span>
+                            {
+                                (request.topHeading === 'IGN') ?
+                                "United states" :""
+                            }
+                        </span>
+                        <span>
+                            {
+                                (request.topHeading === 'Il Sole 24 Ore') ?
+                                "United states" :""
+                            }
+                        </span>
+                        <span>
+                            {
+                                (request.topHeading === 'Independent') ?
+                                "United states" :""
+                            }
+                        </span>
+                        <span>
+                            {
+                                (request.topHeading === 'Infobae') ?
+                                "United states" :""
+                            }
+                        </span>
+                        <span>
+                            {
+                                (request.topHeading === 'InfoMoney') ?
+                                "United states" :""
+                            }
+                        </span>
+                        <span>
+                            {
+                                (request.topHeading === 'La Gaceta') ?
+                                "United states" :""
+                            }
+                        </span>
+                        <span>
+                            {
+                                (request.topHeading === 'La Nacion') ?
+                                "United states" :""
+                            }
+                        </span>
+                        <span>
+                            {
+                                (request.topHeading === 'La Repubblica') ?
+                                "United states" :""
+                            }
+                        </span>
+                        <span>
+                            {
+                                (request.topHeading === 'Le Monde') ?
+                                "United states" :""
+                            }
+                        </span>
+                        <span>
+                            {
+                                (request.topHeading === 'Lenta') ?
+                                "United states" :""
+                            }
+                        </span>
+                        <span>
+                            {
+                                (request.topHeading === 'Libération') ?
+                                "United states" :""
+                            }
+                        </span>
+                        <span>
+                            {
+                                (request.topHeading === 'Les Echos') ?
+                                "United states" :""
+                            }
+                        </span>
+                        <span>
+                            {
+                                (request.topHeading === 'Marca') ?
+                                "United states" :""
+                            }
+                        </span>
+                        <span>
+                            {
+                                (request.topHeading === 'Mashable') ?
+                                "United states" :""
+                            }
+                        </span>
+                        <span>
+                            {
+                                (request.topHeading === 'MSNBC') ?
+                                "United states" :""
+                            }
+                        </span>
+                        <span>
+                            {
+                                (request.topHeading === 'MTV News') ?
+                                "United states" :""
+                            }
+                        </span>
+                        <span>
+                            {
+                                (request.topHeading === 'National Review') ?
+                                "United states" :""
+                            }
+                        </span>
+                        <span>
+                            {
+                                (request.topHeading === 'NBC News') ?
+                                "United states" :""
+                            }
+                        </span>
+                        <span>
+                            {
+                                (request.topHeading === 'News24') ?
+                                "United states" :""
+                            }
+                        </span>
+                        <span>
+                            {
+                                (request.topHeading === 'New Scientist') ?
+                                "United states" :""
+                            }
+                        </span>
+                        <span>
+                            {
+                                (request.topHeading === 'Newsweek') ?
+                                "United states" :""
+                            }
+                        </span>
+                        <span>
+                            {
+                                (request.topHeading === 'New York Magazine') ?
+                                "United states" :""
+                            }
+                        </span>
+                        <span>
+                            {
+                                (request.topHeading === 'Next Big Future') ?
+                                "United states" :""
+                            }
+                        </span>
+                        <span>
+                            {
+                                (request.topHeading === 'NHL News') ?
+                                "United states" :""
+                            }
+                        </span>
+                        <span>
+                            {
+                                (request.topHeading === 'NRK') ?
+                                "United states" :""
+                            }
+                        </span>
+                        <span>
+                            {
+                                (request.topHeading === 'Politico') ?
+                                "United states" :""
+                            }
+                        </span>
+                        <span>
+                            {
+                                (request.topHeading === 'Polygon') ?
+                                "United states" :""
+                            }
+                        </span>
+                        <span>
+                            {
+                                (request.topHeading === 'RBC') ?
+                                "United states" :""
+                            }
+                        </span>
+                        <span>
+                            {
+                                (request.topHeading === 'Recode') ?
+                                "United states" :""
+                            }
+                        </span>
+                        <span>
+                            {
+                                (request.topHeading === 'Reddit') ?
+                                "United states" :""
+                            }
+                        </span>
+                        <span>
+                            {
+                                (request.topHeading === 'Reuters/r/all') ?
+                                "United states" :""
+                            }
+                        </span>
+                        <span>
+                            {
+                                (request.topHeading === 'RT') ?
+                                "United states" :""
+                            }
+                        </span>
+                        <span>
+                            {
+                                (request.topHeading === 'RTE') ?
+                                "United states" :""
+                            }
+                        </span>
+                        <span>
+                            {
+                                (request.topHeading === 'RTL Nieuws') ?
+                                "United states" :""
+                            }   
+                        </span>
+                        <span>
+                            {
+                                (request.topHeading === 'SABQ') ?
+                                "United states" :""
+                            }
+                        </span>
+                        <span>
+                            {
+                                (request.topHeading === 'Spiegel Online') ?
+                                "United states" :""
+                            }
+                        </span>
+                        <span>
+                            {
+                                (request.topHeading === 'Svenska Dagbladet') ?
+                                "United states" :""
+                            }   
+                        </span>
+                        <span>
+                            {
+                                (request.topHeading === 'T3n') ?
+                                "United states" :""
+                            }
+                        </span>
+                        <span>
+                            {
+                                (request.topHeading === 'TechCrunch') ?
+                                "United states" :""
+                            }
+                        </span>
+                        <span>
+                            {
+                                (request.topHeading === 'TechRadar') ?
+                                "United states" :""
+                            }
+                        </span>
+                        <span>
+                            {
+                                (request.topHeading === 'The Globe And Mail') ?
+                                "United states" :""
+                            }
+                        </span>
+                        <span>
+                            {
+                                (request.topHeading === 'The Hill') ?
+                                "United states" :""
+                            }
+                        </span>
+                        <span>
+                            {
+                                (request.topHeading === 'The Hindu') ?
+                                "United states" :""
+                            }
+                        </span>
+                        <span>
+                            {
+                                (request.topHeading === 'The Huffington Post') ?
+                                "United states" :""
+                            }
+                        </span>
+                        <span>
+                            {
+                                (request.topHeading === 'The Irish Times') ?
+                                "United states" :""
+                            }
+                        </span>
+                        <span>
+                            {
+                                (request.topHeading === 'The Jerusalem Post') ?
+                                "United states" :""
+                            }
+                        </span>
+                        <span>
+                            {
+                                (request.topHeading === 'The Lab Bible') ?
+                                "United states" :""
+                            }
+                        </span>
+                        <span>
+                            {
+                                (request.topHeading === 'The Next Web') ?
+                                "United states" :""
+                            }
+                        </span>
+                        <span>
+                            {
+                                (request.topHeading === 'The Sport Bible') ?
+                                "United states" :""
+                            }
+                        </span>
+                        <span>
+                            {
+                                (request.topHeading === 'The Times of India') ?
+                                "United states" :""
+                            }
+                        </span>
+                        <span>
+                            {
+                                (request.topHeading === 'The Verge') ?
+                                "United states" :""
+                            }
+                        </span>
+                        <span>
+                            {
+                                (request.topHeading === 'The Wall Street Journal') ?
+                                "United states" :""
+                            }
+                        </span>
+                        <span>
+                            {
+                                (request.topHeading === 'The Washington Post') ?
+                                "United states" :""
+                            }
+                        </span>
+                        <span>
+                            {
+                                (request.topHeading === 'The Washington Times') ?
+                                "United states" :""
+                            }
+                        </span>
+                        <span>
+                            {
+                                (request.topHeading === 'Time') ?
+                                "United states" :""
+                            }
+                        </span>
+                        <span>
+                            {
+                                (request.topHeading === 'USA Today') ?
+                                "United states" :""
+                            }
+                        </span>
+                        <span>
+                            {
+                                (request.topHeading === 'Vice News') ?
+                                "United states" :""
+                            }
+                        </span>
+                        <span>
+                            {
+                                (request.topHeading === 'Wired') ?
+                                "United states" :""
+                            }
+                        </span>
+                        <span>
+                            {
+                                (request.topHeading === 'Wired.de') ?
+                                "United states" :""
+                            }
+                        </span>
+                        <span>
+                            {
+                                (request.topHeading === 'Wirtschafts Woche') ?
+                                "United states" :""
+                            }
+                        </span>
+                        <span>
+                            {
+                                (request.topHeading === 'The Wall Street Journal') ?
+                                "United states" :""
+                            }
+                        </span>
+                        <span>
+                            {
+                                (request.topHeading === 'The Washington Post') ?
+                                "United states" :""
+                            }
+                        </span>
+                        <span>
+                            {
+                                (request.topHeading === 'The Washington Times') ?
+                                "United states" :""
+                            }
+                        </span>
+                        <span>
+                            {
+                                (request.topHeading === 'Vice News') ?
+                                "United states" :""
+                            }
+                        </span>
+                        <span>
+                            {
+                                (request.topHeading === 'Xinhua Net') ?
+                                "United states" :""
+                            }
+                        </span>
+                        <span>
+                            {
+                                (request.topHeading === 'Ynet') ?
+                                "United states" :""
+                            }
+                        </span>
+                        
+
+
+
+
+                        
                        
                     </div>
                     
